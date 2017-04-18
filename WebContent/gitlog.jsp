@@ -8,8 +8,8 @@
 </head>
 <body>
 <form action="servletlog" method="get" >
-Username:<input type="text" name="user"><br>
-Pwd<input type="password" name="pass"><br>
+Uname:<input type="text" name="user"><br>
+Pass:<input type="password" name="pass"><br>
 <input type="submit" name="submit" value="login">
       </form>
 </body>
