@@ -8,7 +8,7 @@
 </head>
 <body>
 <form action="servletlog" method="get" >
-Uname:<input type="text" name="user"><br>
+Username:<input type="text" name="user"><br>
 Password<input type="password" name="pass"><br>
 <input type="submit" name="submit" value="login">
       </form>
