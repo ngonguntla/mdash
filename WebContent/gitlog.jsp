@@ -9,7 +9,7 @@
 <body>
 <form action="servletlog" method="get" >
 Uname:<input type="text" name="user"><br>
-Pass:<input type="password" name="pass"><br>
+Password<input type="password" name="pass"><br>
 <input type="submit" name="submit" value="login">
       </form>
 </body>
