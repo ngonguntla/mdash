@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
-  <display-name>servletgit</display-name>
-  
-   <servlet>
-        <servlet-name>servletlog</servlet-name>
-        <servlet-class>com.servletlog</servlet-class>
+  <display-name>firstservlet</display-name>
+  <servlet>
+        <servlet-name>mlog</servlet-name>
+        <servlet-class>com.mlog</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>servletlog</servlet-name>
-        <url-pattern>/servletlog</url-pattern>
+        <servlet-name>mlog</servlet-name>
+        <url-pattern>/mlog</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
-        <welcome-file>gitlog.jsp</welcome-file>
+        <welcome-file>logser.html</welcome-file>
     </welcome-file-list>
     <session-config>
         <session-timeout>
